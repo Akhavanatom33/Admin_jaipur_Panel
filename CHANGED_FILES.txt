@@ -1,0 +1,8 @@
+Added files:
+- package.json
+- tsconfig.json
+- wrangler.jsonc
+- src/index.ts
+- src/security.ts
+- README.md
+- CHANGED_FILES.txt
