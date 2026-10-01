@@ -1,18 +1,24 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jaipur-admin-bot",
+  "name": "admin-jaipur-panel",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "jaipur-db",
-      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+      "database_id": "PASTE_YOUR_JAIPUR_DB_DATABASE_ID_HERE"
     }
   ],
   "vars": {
     "ADMIN_IDS": "REPLACE_WITH_TELEGRAM_ADMIN_IDS",
     "GAME_URL": "https://REPLACE_WITH_YOUR_GAME_WORKER.workers.dev"
   },
-  "secrets": {"required": ["BOT_TOKEN", "TELEGRAM_WEBHOOK_SECRET", "ADMIN_API_TOKEN"]}
+  "secrets": {
+    "required": [
+      "BOT_TOKEN",
+      "TELEGRAM_WEBHOOK_SECRET",
+      "ADMIN_API_TOKEN"
+    ]
+  }
 }
