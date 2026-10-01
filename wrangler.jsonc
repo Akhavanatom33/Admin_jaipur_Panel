@@ -7,12 +7,12 @@
     {
       "binding": "DB",
       "database_name": "jaipur-db",
-      "database_id": "PASTE_YOUR_JAIPUR_DB_DATABASE_ID_HERE"
+      "database_id": "f509869b-2118-4f98-900d-4fa838260cfe"
     }
   ],
   "vars": {
-    "ADMIN_IDS": "REPLACE_WITH_TELEGRAM_ADMIN_IDS",
-    "GAME_URL": "https://REPLACE_WITH_YOUR_GAME_WORKER.workers.dev"
+    "ADMIN_IDS": "312059108",
+    "GAME_URL": "https://jaipur.alicr7akhavan03.workers.dev"
   },
   "secrets": {
     "required": [
