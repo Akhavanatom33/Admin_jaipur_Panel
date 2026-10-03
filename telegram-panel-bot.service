@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram group message scheduler bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/telegram-panel-bot
+ExecStart=/opt/telegram-panel-bot/venv/bin/python bot.py
+Restart=always
+RestartSec=5
+EnvironmentFile=/opt/telegram-panel-bot/.env
+
+[Install]
+WantedBy=multi-user.target
